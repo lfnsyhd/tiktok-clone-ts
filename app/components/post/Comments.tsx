@@ -1,11 +1,11 @@
-import { CommentsCompTypes } from '@/app/types'
+import { CommentsCompTypes } from 'app/types'
 import React, { useState } from 'react'
 import ClientOnly from '../ClientOnly'
 import SingleComment from './SingleComment';
-import { useCommentStore } from '@/app/stores/comment';
-import { useGeneralStore } from '@/app/stores/general';
-import { useUser } from '@/app/context/user';
-import useCreateComment from '@/app/hooks/useCreateComment';
+import { useCommentStore } from 'app/stores/comment';
+import { useGeneralStore } from 'app/stores/general';
+import { useUser } from 'app/context/user';
+import useCreateComment from 'app/hooks/useCreateComment';
 import TextInput from '../TextInput';
 import { BiLoaderCircle } from 'react-icons/bi';
 

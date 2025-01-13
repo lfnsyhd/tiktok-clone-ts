@@ -1,6 +1,6 @@
 "use client";
 
-import { MenuItemsTypes } from '@/app/types';
+import { MenuItemsTypes } from 'app/types';
 import React from 'react'
 import { AiOutlineHome } from 'react-icons/ai';
 import { BsCameraVideo } from 'react-icons/bs';

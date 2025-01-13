@@ -1,9 +1,9 @@
-import { ShowErrorObject } from '@/app/types';
+import { ShowErrorObject } from 'app/types';
 import React, { useState } from 'react'
 import { BiLoaderCircle } from 'react-icons/bi';
 import TextInput from '../TextInput';
-import { useUser } from '@/app/context/user';
-import { useGeneralStore } from '@/app/stores/general';
+import { useUser } from 'app/context/user';
+import { useGeneralStore } from 'app/stores/general';
 
 const Login = () => {
   let { setIsLoginOpen } = useGeneralStore();

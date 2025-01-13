@@ -1,13 +1,13 @@
 "use client";
 
-import ClientOnly from '@/app/components/ClientOnly';
-import Comments from '@/app/components/post/Comments';
-import CommentsHeader from '@/app/components/post/CommentsHeader';
-import userCreateBucketUrl from '@/app/hooks/useCreateBucketUrl';
-import { useCommentStore } from '@/app/stores/comment';
-import { useLikeStore } from '@/app/stores/like';
-import { usePostStore } from '@/app/stores/post';
-import { KeyboardEventWithCode, ParamsDefault, PostWithProfile } from '@/app/types'
+import ClientOnly from 'app/components/ClientOnly';
+import Comments from 'app/components/post/Comments';
+import CommentsHeader from 'app/components/post/CommentsHeader';
+import userCreateBucketUrl from 'app/hooks/useCreateBucketUrl';
+import { useCommentStore } from 'app/stores/comment';
+import { useLikeStore } from 'app/stores/like';
+import { usePostStore } from 'app/stores/post';
+import { KeyboardEventWithCode, ParamsDefault, PostWithProfile } from 'app/types'
 import Link from 'next/link';
 import { useRouter } from 'next/navigation'
 import React, { use, useEffect, useRef, useState } from 'react'

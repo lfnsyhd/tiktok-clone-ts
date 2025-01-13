@@ -1,15 +1,15 @@
 "use client";
 
-import ClientOnly from '@/app/components/ClientOnly';
-import EditProfileOverlay from '@/app/components/profile/EditProfileOverlay';
-import PostUser from '@/app/components/profile/PostUser';
-import { useUser } from '@/app/context/user';
-import userCreateBucketUrl from '@/app/hooks/useCreateBucketUrl';
-import MainLayout from '@/app/layouts/MainLayout';
-import { useGeneralStore } from '@/app/stores/general';
-import { usePostStore } from '@/app/stores/post';
-import { useProfileStore } from '@/app/stores/profile';
-import { ProfilePageTypes, User } from '@/app/types';
+import ClientOnly from 'app/components/ClientOnly';
+import EditProfileOverlay from 'app/components/profile/EditProfileOverlay';
+import PostUser from 'app/components/profile/PostUser';
+import { useUser } from 'app/context/user';
+import userCreateBucketUrl from 'app/hooks/useCreateBucketUrl';
+import MainLayout from 'app/layouts/MainLayout';
+import { useGeneralStore } from 'app/stores/general';
+import { usePostStore } from 'app/stores/post';
+import { useProfileStore } from 'app/stores/profile';
+import { ProfilePageTypes, User } from 'app/types';
 import React, { use, useEffect } from 'react'
 import { BsPencil } from 'react-icons/bs';
 

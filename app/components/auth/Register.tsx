@@ -1,10 +1,10 @@
-import { ShowErrorObject } from '@/app/types';
+import { ShowErrorObject } from 'app/types';
 import { useRouter } from 'next/navigation';
 import React, { useState } from 'react'
 import TextInput from '../TextInput';
 import { BiLoaderCircle } from 'react-icons/bi';
-import { useUser } from '@/app/context/user';
-import { useGeneralStore } from '@/app/stores/general';
+import { useUser } from 'app/context/user';
+import { useGeneralStore } from 'app/stores/general';
 
 const Register = () => {
   let { setIsLoginOpen } = useGeneralStore();

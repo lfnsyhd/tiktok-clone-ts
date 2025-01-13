@@ -1,8 +1,8 @@
-import { useUser } from '@/app/context/user';
-import userCreateBucketUrl from '@/app/hooks/useCreateBucketUrl';
-import useDeleteComment from '@/app/hooks/useDeleteComment';
-import { useCommentStore } from '@/app/stores/comment';
-import { SingleCommentCompTypes } from '@/app/types'
+import { useUser } from 'app/context/user';
+import userCreateBucketUrl from 'app/hooks/useCreateBucketUrl';
+import useDeleteComment from 'app/hooks/useDeleteComment';
+import { useCommentStore } from 'app/stores/comment';
+import { SingleCommentCompTypes } from 'app/types'
 import moment from 'moment';
 import Link from 'next/link';
 import React, { useState } from 'react'
