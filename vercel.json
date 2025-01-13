@@ -1,0 +1,16 @@
+  {
+    "rewrites": [
+      {
+        "source": "/post/:postId/:userId",
+        "destination": "/api/post/:postId/:userId"
+      },
+      {
+        "source": "/profile/:id",
+        "destination": "/api/profile/:id"
+      },
+      {
+        "source": "/(.*)",
+        "destination": "/"
+      }
+    ]
+  }
