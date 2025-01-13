@@ -159,7 +159,7 @@ const Upload = () => {
                   <div className="mb-1 text-[15px]">Caption</div>
                   <div className="text-gray-400 text-[12px]">{caption?.length}/150</div>
                 </div>
-                <textarea rows={3} maxLength={150} className='text-[12px] w-full border p-2.5 rounded-md focus:outine-none' onChange={event => setCaption(event.target.value)} value={caption}>{caption}</textarea>
+                <textarea rows={3} maxLength={150} className='text-[12px] w-full border p-2.5 rounded-md focus:outine-none' onChange={event => setCaption(event.target.value)}>{caption}</textarea>
               </div>
 
               <div className="flex gap-3 justify-end">
