@@ -1,8 +1,8 @@
-import { useUser } from 'app/context/user';
-import userCreateBucketUrl from 'app/hooks/useCreateBucketUrl';
-import useSearchProfilesByName from 'app/hooks/useSearchProfilesByName';
-import { useGeneralStore } from 'app/stores/general';
-import { RandomUsers } from 'app/types';
+import { useUser } from '@/app/context/user';
+import userCreateBucketUrl from '@/app/hooks/useCreateBucketUrl';
+import useSearchProfilesByName from '@/app/hooks/useSearchProfilesByName';
+import { useGeneralStore } from '@/app/stores/general';
+import { RandomUsers } from '@/app/types';
 import debounce from 'debounce';
 import Link from 'next/link';
 import { usePathname, useRouter } from 'next/navigation';

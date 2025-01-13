@@ -1,6 +1,6 @@
 "use client";
 
-import { CommentsHeaderCompTypes } from 'app/types';
+import { CommentsHeaderCompTypes } from '@/app/types';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import React, { useEffect, useState } from 'react'
@@ -9,15 +9,15 @@ import { BsChatDots, BsTrash3 } from 'react-icons/bs';
 import { ImMusic } from 'react-icons/im';
 import ClientOnly from '../ClientOnly';
 import { AiFillHeart } from 'react-icons/ai';
-import { useGeneralStore } from 'app/stores/general';
-import { useUser } from 'app/context/user';
-import { useCommentStore } from 'app/stores/comment';
-import { useLikeStore } from 'app/stores/like';
-import useIsLiked from 'app/hooks/useIsLiked';
-import useCreateLike from 'app/hooks/useCreateLike';
-import useDeleteLike from 'app/hooks/useDeleteLike';
-import useDeletePostById from 'app/hooks/useDeletePostById';
-import userCreateBucketUrl from 'app/hooks/useCreateBucketUrl';
+import { useGeneralStore } from '@/app/stores/general';
+import { useUser } from '@/app/context/user';
+import { useCommentStore } from '@/app/stores/comment';
+import { useLikeStore } from '@/app/stores/like';
+import useIsLiked from '@/app/hooks/useIsLiked';
+import useCreateLike from '@/app/hooks/useCreateLike';
+import useDeleteLike from '@/app/hooks/useDeleteLike';
+import useDeletePostById from '@/app/hooks/useDeletePostById';
+import userCreateBucketUrl from '@/app/hooks/useCreateBucketUrl';
 import moment from 'moment';
 
 const CommentsHeader = ({ post, params }: CommentsHeaderCompTypes) => {

@@ -4,7 +4,7 @@ import { AiOutlineLoading3Quarters } from 'react-icons/ai';
 import Link from 'next/link';
 import { SiSoundcharts } from 'react-icons/si';
 import { BiErrorCircle } from 'react-icons/bi';
-import userCreateBucketUrl from 'app/hooks/useCreateBucketUrl';
+import userCreateBucketUrl from '@/app/hooks/useCreateBucketUrl';
 
 const PostUser = ({post}: PostUserCompTypes) => {
     useEffect(() => {

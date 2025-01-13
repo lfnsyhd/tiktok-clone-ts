@@ -4,16 +4,16 @@ import 'react-advanced-cropper/dist/style.css'
 import TextInput from "../TextInput";
 import { BsPencil } from "react-icons/bs";
 import { AiOutlineClose } from "react-icons/ai";
-import { useUser } from "app/context/user";
+import { useUser } from "@/app/context/user";
 import { useRouter } from "next/navigation";
 import { BiLoaderCircle } from "react-icons/bi";
-import { CropperDimensions, ShowErrorObject } from "app/types";
-import { useProfileStore } from "app/stores/profile";
-import { useGeneralStore } from "app/stores/general";
-import useUpdateProfile from "app/hooks/useUpdateProfile";
-import useChangeUserImage from "app/hooks/useChangeUserImage";
-import useUpdateProfileImage from "app/hooks/useUpdateProfileImage";
-import useCreateBucketUrl from "app/hooks/useCreateBucketUrl";
+import { CropperDimensions, ShowErrorObject } from "@/app/types";
+import { useProfileStore } from "@/app/stores/profile";
+import { useGeneralStore } from "@/app/stores/general";
+import useUpdateProfile from "@/app/hooks/useUpdateProfile";
+import useChangeUserImage from "@/app/hooks/useChangeUserImage";
+import useUpdateProfileImage from "@/app/hooks/useUpdateProfileImage";
+import useCreateBucketUrl from "@/app/hooks/useCreateBucketUrl";
 
 export default function EditProfileOverlay() {
 
